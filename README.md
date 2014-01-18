@@ -1,9 +1,11 @@
-MPU6050 C# library.
+# About JollyI2C
 
-This is a C# implementation of the work done by jrowberg.
+C# port of the i2cdevlib at jrowberg/i2cdevlib. Targetting the Micro Framework, this should run on any compatible device such as the Netduino.
 
-Written against the micro framework so will run on small devices such as the Netduino.
+# Devices Supported
 
-Currently only reading the raw values work.  Trying to get the DMP working is proving difficult.
+* MPU6050 (RAW only, no DMP)
 
+# Samples
 
+Samples can be found in the 'Samples' directory.
